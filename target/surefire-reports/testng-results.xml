@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-23T12:52:35Z" name="meilishuo" finished-at="2021-01-23T12:52:43Z" duration-ms="7288">
+    <groups>
+    </groups>
+    <test started-at="2021-01-23T12:52:35Z" name="GetApiTest" finished-at="2021-01-23T12:52:38Z" duration-ms="2398">
+      <class name="com.qa.test.GetApiTest">
+        <test-method is-config="true" signature="before_class()[pri:0, instance:com.qa.test.GetApiTest@77f1baf5]" started-at="2021-01-23T20:52:35Z" name="before_class" finished-at="2021-01-23T20:52:35Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_class -->
+        <test-method signature="getAPITest(java.lang.String, int)[pri:0, instance:com.qa.test.GetApiTest@77f1baf5]" started-at="2021-01-23T20:52:35Z" name="getAPITest" data-provider="getapi-provider" finished-at="2021-01-23T20:52:37Z" duration-ms="1521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITest -->
+        <test-method signature="getAPITest(java.lang.String, int)[pri:0, instance:com.qa.test.GetApiTest@77f1baf5]" started-at="2021-01-23T20:52:37Z" name="getAPITest" data-provider="getapi-provider" finished-at="2021-01-23T20:52:38Z" duration-ms="816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITest -->
+        <test-method is-config="true" signature="after_class()[pri:0, instance:com.qa.test.GetApiTest@77f1baf5]" started-at="2021-01-23T20:52:38Z" name="after_class" finished-at="2021-01-23T20:52:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_class -->
+      </class> <!-- com.qa.test.GetApiTest -->
+    </test> <!-- GetApiTest -->
+    <test started-at="2021-01-23T12:52:38Z" name="PostApiTest" finished-at="2021-01-23T12:52:43Z" duration-ms="4854">
+      <class name="com.qa.test.PostApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.PostApiTest@3c3d9b6b]" started-at="2021-01-23T20:52:38Z" name="setup" finished-at="2021-01-23T20:52:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postAPITest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.test.PostApiTest@3c3d9b6b]" started-at="2021-01-23T20:52:38Z" name="postAPITest" data-provider="post-provider" finished-at="2021-01-23T20:52:41Z" duration-ms="3003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+        <test-method signature="postAPITest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.test.PostApiTest@3c3d9b6b]" started-at="2021-01-23T20:52:41Z" name="postAPITest" data-provider="post-provider" finished-at="2021-01-23T20:52:43Z" duration-ms="1850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@163.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+      </class> <!-- com.qa.test.PostApiTest -->
+    </test> <!-- PostApiTest -->
+  </suite> <!-- meilishuo -->
+</testng-results>
